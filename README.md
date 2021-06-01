@@ -25,7 +25,7 @@ anchor的大小也应该修改，但是发现yolov5直接用了k均值聚类最�
 # 如果真的有人想用这个仓库的话
 主要就是yolov5仓库的文件
 数据集需要放在这个文件夹的同级目录，按照coco格式放置
-启动训练在 run.sh
+启动训练在 `run.sh`
 或者是`CUDA_VISIBLE_DEVICES=0 python train.py --img 640 --batch 2 --epochs 1 --data battery.yaml --weights yolov5x.pt`
 来单卡训练
 # 小结
